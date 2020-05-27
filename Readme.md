@@ -60,7 +60,7 @@
 
 2. ### Login:
 	* endpoint: 
-	> localhost:5000/api/auth/loginbody: 
+	> localhost:5000/api/auth/login 
 	
 	* body:
 	>	{
