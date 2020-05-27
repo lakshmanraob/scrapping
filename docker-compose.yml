@@ -11,7 +11,7 @@ services:
       MONGODB_NAME: flask_app_db
       MONGODB_HOST: mongodb_auth
     ports:
-       - "5000:5000"
+       - "80:80"
     depends_on:
       - mongodb_auth
     links:

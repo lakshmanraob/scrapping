@@ -12,6 +12,6 @@ ADD .env /app
 
 ADD flask_app /app/flask_app
 
-EXPOSE 5000
+EXPOSE 80
 
 CMD python /app/flask_app/app.py
